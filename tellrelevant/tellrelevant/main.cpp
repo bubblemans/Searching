@@ -3,11 +3,15 @@ using namespace std;
 
 int search(string, string);
 int main() {
-    string sentence1 = "I am Hung Yeh Lin. How are you?";
-    string sentence2 = "I am Hung Yeh Lin. I work in Hung company.";
+    string sentence1 ;
+    string sentence2 ;
     int sentence1num, sentence2num;
     string keyword;
     
+    cout << "Enter a sentence 1:\n";
+    getline(cin, sentence1);
+    cout << "Enter a sentence2:\n";
+    getline(cin, sentence2);
     cout << "Enter a keyword:\n";
     cin >> keyword;
     sentence1num = search(sentence1, keyword);
