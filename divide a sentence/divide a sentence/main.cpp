@@ -1,9 +1,8 @@
 #include <iostream>
-#include <valarray>
-#include <cstddef>
 using namespace std;
 
 int main() {
+    // can't type in over 150 words.
     string sentence;
     string space = " ";
     string dot = ".";

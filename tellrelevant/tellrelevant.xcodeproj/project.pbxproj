@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E159F7F21FD9B5A6006879CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E159F7F11FD9B5A6006879CA /* main.cpp */; };
+		E18850971FDB5E7C00296E54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E18850961FDB5E7C00296E54 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E159F7EE1FD9B5A6006879CA /* Final expected questions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Final expected questions"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E159F7F11FD9B5A6006879CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E159F7EE1FD9B5A6006879CA /* Final expected questions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "Final expected questions"; path = "/Users/Alvin/Desktop/CIS22A_AllFOLDER/searching/tellrelevant/build/Debug/Final expected questions"; sourceTree = "<absolute>"; };
+		E18850961FDB5E7C00296E54 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = tellrelevant/main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,25 +41,8 @@
 		E159F7E51FD9B5A6006879CA = {
 			isa = PBXGroup;
 			children = (
-				E159F7F01FD9B5A6006879CA /* Final expected questions */,
-				E159F7EF1FD9B5A6006879CA /* Products */,
+				E18850961FDB5E7C00296E54 /* main.cpp */,
 			);
-			sourceTree = "<group>";
-		};
-		E159F7EF1FD9B5A6006879CA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E159F7EE1FD9B5A6006879CA /* Final expected questions */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E159F7F01FD9B5A6006879CA /* Final expected questions */ = {
-			isa = PBXGroup;
-			children = (
-				E159F7F11FD9B5A6006879CA /* main.cpp */,
-			);
-			path = "Final expected questions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,7 +80,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E159F7E91FD9B5A6006879CA /* Build configuration list for PBXProject "Final expected questions" */;
+			buildConfigurationList = E159F7E91FD9B5A6006879CA /* Build configuration list for PBXProject "tellrelevant" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -105,7 +88,7 @@
 				en,
 			);
 			mainGroup = E159F7E51FD9B5A6006879CA;
-			productRefGroup = E159F7EF1FD9B5A6006879CA /* Products */;
+			productRefGroup = E159F7E51FD9B5A6006879CA;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -119,7 +102,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E159F7F21FD9B5A6006879CA /* main.cpp in Sources */,
+				E18850971FDB5E7C00296E54 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +215,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E159F7E91FD9B5A6006879CA /* Build configuration list for PBXProject "Final expected questions" */ = {
+		E159F7E91FD9B5A6006879CA /* Build configuration list for PBXProject "tellrelevant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E159F7F31FD9B5A6006879CA /* Debug */,
@@ -248,6 +231,7 @@
 				E159F7F71FD9B5A6006879CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

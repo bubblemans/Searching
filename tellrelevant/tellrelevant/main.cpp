@@ -3,8 +3,8 @@ using namespace std;
 
 int search(string, string);
 int main() {
-    string sentence1 ;
-    string sentence2 ;
+    string sentence1;
+    string sentence2;
     int sentence1num, sentence2num;
     string keyword;
     
@@ -28,7 +28,7 @@ int main() {
         cout << sentence2 << endl;
     }
     else
-        cout << "They are relevant equaaly.\n";
+        cout << "They are relevant equally.\n";
 }
 
 int search(string sen, string key){
